@@ -3,7 +3,7 @@
         "id" : 0,
         "title" : "Mon Vieux Grimoire - Notation de livres",
         "src" : "./Mon Vieux Grimoire.png",
-        "className": "row-span-2"
+        "className": ""
     },
     {
         "id" : 1,

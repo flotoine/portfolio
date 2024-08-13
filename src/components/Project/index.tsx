@@ -3,20 +3,21 @@ import Image from 'next/image'
 
 export default function Project () {
     return (
-        <div className="grid grid-flow-dense grid-rows-2 grid-cols-3 gap-4">
+        <div className="grid gap-4 grid-flow-col">
         {
             projectList.map((projectItem) => 
-                <div key ={projectItem.id} className={projectItem.className}>
-                    <div>
+                <div key ={projectItem.id} >
+                    <div >
                         <Image 
-                        src={require(`${projectItem.src}`).default}
+                        src={require(`${projectItem.src}`)}
                         alt="Aperçu du projet"
-                        width={300}
-                        height={200}
+                        width={500}
+                        height={400}
+                        className="min-h-72 max-h-72 object-cover"
                         />
                     </div>
-                    <div>
-                        <p className="bg-zinc-200 text-zinc-800">{projectItem.title}</p>
+                    <div className="h-10 bg-zinc-200 place-content-center">
+                        <p className=" text-zinc-800">{projectItem.title}</p>
                     </div>
                 </div>
             )

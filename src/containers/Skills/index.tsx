@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-      <div className="bg-zinc-300">
+      <div className="bg-zinc-300 p-4">
         <h2 className="text-zinc-950 text-3xl">/Compétences</h2>
         <p>Principales technos</p> 
         <p>Autres technos</p> 
