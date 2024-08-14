@@ -9,11 +9,11 @@ export default function Project () {
                 <div key ={projectItem.id} >
                     <div >
                         <Image 
-                        src={require(`${projectItem.src}`)}
+                        src={require(`${projectItem.src}`).default}
                         alt="Aperçu du projet"
                         width={500}
                         height={400}
-                        className="min-h-72 max-h-72 object-cover"
+                        className="min-h-72 max-h-72 object-cover object-left-top"
                         />
                     </div>
                     <div className="h-10 bg-zinc-200 place-content-center">
