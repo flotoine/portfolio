@@ -6,7 +6,7 @@ export default function Project () {
         <div className="grid gap-4 grid-flow-col">
         {
             projectList.map((projectItem) => 
-                <div key ={projectItem.id} >
+                <div key ={projectItem.id} className="shadow-lg hover:blur-sm transition-all" >
                     <div >
                         <Image 
                         src={require(`${projectItem.src}`).default}
@@ -16,8 +16,8 @@ export default function Project () {
                         className="min-h-72 max-h-72 object-cover object-left-top"
                         />
                     </div>
-                    <div className="h-10 bg-zinc-200 place-content-center">
-                        <p className=" text-zinc-800">{projectItem.title}</p>
+                    <div className="h-10 bg-zinc-50 place-content-center">
+                        <p className=" text-zinc-900 pl-4">{projectItem.title}</p>
                     </div>
                 </div>
             )
