@@ -16,8 +16,8 @@ export default function Project () {
                         className="min-h-72 max-h-72 object-cover object-left-top"
                         />
                     </div>
-                    <div className="h-10 bg-zinc-50 place-content-center">
-                        <p className=" text-zinc-900 pl-4">{projectItem.title}</p>
+                    <div className="h-10 bg-zinc-50 place-content-center dark:bg-zinc-700">
+                        <p className=" text-zinc-900 pl-4 dark:text-zinc-50">{projectItem.title}</p>
                     </div>
                 </div>
             )

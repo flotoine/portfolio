@@ -20,7 +20,7 @@ export default function Header() {
   }
     return (
       <div> 
-        <div className="flex flex-col font-outline-1 h-[93dvh] place-items-center place-content-center bg-zinc-50 text-zinc-950 dark:bg-zinc-900 dark:text-zinc-50">
+        <div className="flex flex-col font-outline-1 h-[93dvh] place-items-center place-content-center bg-zinc-50 text-zinc-950 dark:bg-zinc-900 dark:text-zinc-50 dark:font-outline-0">
           <h1 className="text-8xl z-10">
               Florian Antoine
           </h1>
