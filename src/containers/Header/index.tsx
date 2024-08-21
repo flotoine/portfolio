@@ -2,7 +2,9 @@
 import Image from 'next/image'
 import profilePic from './BackgroundPP.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLanguage, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faMoon } from '@fortawesome/free-solid-svg-icons';
+import Language from "../../components/Language"
+import {useTranslations} from 'next-intl';
 
 
 export default function Header() {
@@ -16,6 +18,9 @@ export default function Header() {
       localStorage.setItem('theme', 'dark');
     }
   }
+
+  const t = useTranslations('Header');
+
     return (
       <div className='static flex flex-col place-items-center  bg-zinc-50 dark:bg-zinc-900'> 
         <div className="flex flex-col font-outline-1  h-[calc(100dvh-65px)] place-content-center   transition-all text-zinc-950  dark:text-zinc-50 dark:font-outline-0">
@@ -23,7 +28,7 @@ export default function Header() {
               Florian Antoine
           </h1>
           <p className="text-[57px] font-light z-10 ">
-              Développeur Web
+              {t('title')}
           </p>
         </div>
         <div className='z-0 drop-shadow-lg brightness-200 opacity-50 absolute top-10'>
@@ -34,8 +39,8 @@ export default function Header() {
             height={800}
           />
         </div>
-        <div className='absolute top-5 right-5'>
-          <FontAwesomeIcon className='pr-5' icon={faLanguage} />
+        <div className='absolute top-5 right-5 flex flex-row place-items-center dark:invert'>
+          <Language />
           <FontAwesomeIcon icon={faMoon} onClick={toggleTheme} />
         </div>
         

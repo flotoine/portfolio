@@ -2,7 +2,8 @@
 import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import "./globals.css";
-
+import {NextIntlClientProvider} from 'next-intl';
+import {getLocale, getMessages} from 'next-intl/server';
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -15,14 +16,28 @@ export const metadata: Metadata = {
   description: "Portofolio du développeur web Florian Antoine",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+
+export default async function RootLayout({
+  children
+}: {
   children: React.ReactNode;
-}>) {
+}) {
+  const locale = await getLocale();
+ 
+  // Providing all messages to the client
+  // side is the easiest way to get started
+  const messages = await getMessages();
+ 
   return (
-    <html lang="fr">
-      <body className={jost.className}>{children}</body>
+    <html lang={locale}>
+      <body className={jost.className}>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
     </html>
   );
 }
+
+
+/// language set up https://next-intl-docs.vercel.app/docs/getting-started/app-router/without-i18n-routing
