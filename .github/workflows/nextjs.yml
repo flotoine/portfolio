@@ -78,9 +78,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: react-bundle
-          path: react/react-bundle # ./react-bundle, ./react-bundle/*, react-bundle do not work
-          if-no-files-found: error
+          path: ./out
 
   # Deployment job
   deploy:
