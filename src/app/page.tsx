@@ -2,9 +2,7 @@
 import Header from "@/containers/Header"
 import Projects from "@/containers/Projects"
 import Skills from "@/containers/Skills";
-import Contact from "@/containers/Contact";
-
-
+import Footer from "@/containers/Footer";
 
 
 export default function Home() {
@@ -14,7 +12,7 @@ export default function Home() {
       <Header />
       <Projects />
       <Skills />
-      <Contact />
+      <Footer />
     </div>
   );
 }
