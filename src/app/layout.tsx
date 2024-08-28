@@ -17,27 +17,16 @@ export const metadata: Metadata = {
 };
 
 
-export default async function RootLayout({
-  children
-}: {
+export default function RootLayout({
+  children,
+}: Readonly<{
   children: React.ReactNode;
-}) {
-  const locale = await getLocale();
- 
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages();
- 
+}>) {
   return (
-    <html lang={locale}>
-      <body className={jost.className}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
+    <html lang="fr">
+      <body className={jost.className}>{children}</body>
     </html>
   );
 }
-
 
 /// language set up https://next-intl-docs.vercel.app/docs/getting-started/app-router/without-i18n-routing

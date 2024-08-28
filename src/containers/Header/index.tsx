@@ -4,7 +4,7 @@ import profilePic from './BackgroundPP.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import Language from "../../components/Language"
-import {useTranslations} from 'next-intl';
+
 
 
 export default function Header() {
@@ -19,7 +19,7 @@ export default function Header() {
     }
   }
 
-  const t = useTranslations('Header');
+
 
     return (
       <div className='static flex flex-col place-items-center  bg-zinc-50 dark:bg-zinc-900'> 
@@ -28,7 +28,7 @@ export default function Header() {
               Florian Antoine
           </h1>
           <p className="text-[57px] font-light z-10 ">
-              {t('title')}
+              dev web
           </p>
         </div>
         <div className='z-0 drop-shadow-lg brightness-200 opacity-50 absolute top-10'>
