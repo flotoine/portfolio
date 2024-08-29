@@ -9,9 +9,8 @@
         "title":"/Skills"
     },
     "Footer" : {
-        "contactme":"Contact Me"
-    },
-    "Disclaimer" : {
-        "title":"Disclaimer"
+        "contactme":"Contact Me",
+        "Disclaimer":"Disclaimer",
+        "DisclaimerContent":""
     }
 }

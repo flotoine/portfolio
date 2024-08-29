@@ -9,10 +9,8 @@
         "title":"/Compétences"
     },
     "Footer" : {
-        "contactme":"Me contacter"
-    },
-    "Disclaimer" : {
-        "title":"Mentions Légales"
+        "contactme":"Me contacter",
+        "Disclaimer":"Mentions Légales",
+        "DisclaimerContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget consectetur erat. Vestibulum tincidunt ac felis vitae efficitur. Donec luctus ultricies lacus, in aliquet risus fermentum nec. Curabitur eget lectus non nibh efficitur cursus. Maecenas elementum mi quis sapien dapibus porta. Praesent est lacus, lacinia ac magna ac, aliquet elementum orci. Pellentesque consequat efficitur aliquet. Nam at sollicitudin nisi, vitae accumsan diam. Aenean nulla risus, fermentum vitae feugiat nec, aliquet sollicitudin diam. Duis ac tellus id arcu placerat lobortis. Curabitur sed est eu mi lacinia venenatis id quis augue. Praesent fringilla vulputate neque nec euismod. Nullam in rutrum ex. Fusce id erat sed mauris eleifend egestas. In at turpis massa. Integer sit amet enim vestibulum, vulputate dolor eu, scelerisque diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed turpis vel sem pretium commodo at nec diam. Sed ultrices diam a metus tristique, non blandit metus fringilla. Nulla dictum nunc eros, mollis pretium lacus finibus rutrum. Nulla tincidunt dolor tellus, hendrerit sodales elit pharetra vel. Fusce faucibus egestas faucibus. Vivamus leo neque, dictum ut malesuada id, malesuada non orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis ac sagittis ligula, ac feugiat risus. Donec placerat nec urna id fringilla. Nulla accumsan, justo non accumsan viverra, lacus odio scelerisque metus, ac lacinia tellus tellus ut elit. In porttitor odio eget pretium tincidunt. Quisque laoreet nec ipsum in ornare. Etiam efficitur massa sit amet libero aliquet semper. Aenean a placerat ex. Sed ut nibh ut sapien interdum placerat. Aliquam iaculis sem vitae nibh aliquam, vitae hendrerit odio viverra. Cras suscipit malesuada facilisis. Donec libero dui, efficitur sed augue sed, dictum ornare dolor. Morbi non dolor ac risus fringilla ultricies. "
     }
-
 }
