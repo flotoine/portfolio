@@ -1,5 +1,18 @@
 {
     "Header" : {
         "title":"Développeur web"
+    },
+    "Projects": {
+        "title":"/Projets"
+    },
+    "Skills": {
+        "title":"/Compétences"
+    },
+    "Footer" : {
+        "contactme":"Me contacter"
+    },
+    "Disclaimer" : {
+        "title":"Mentions Légales"
     }
+
 }

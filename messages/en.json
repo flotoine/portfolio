@@ -1,5 +1,17 @@
 {
     "Header" : {
-        "title":"web dev"
+        "title":"Web developer"
+    },
+    "Projects": {
+        "title":"/Projects"
+    },
+    "Skills": {
+        "title":"/Skills"
+    },
+    "Footer" : {
+        "contactme":"Contact Me"
+    },
+    "Disclaimer" : {
+        "title":"Disclaimer"
     }
 }
