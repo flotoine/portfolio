@@ -3,7 +3,33 @@
         "title":"Web developer"
     },
     "Projects": {
-        "title":"/Projects"
+        "title":"/Projects",
+        "github":"Open the project on GitHub",
+        "projectList":[
+            {
+                "id" : 0,
+                "title" : "Mon Vieux Grimoire - Book rating",
+                "src" : "./Mon Vieux Grimoire.png",
+                "className": "",
+                "backText" : "This project involved the creation of Node.js-based API routes for building and operating a NoSQL database (MongoDB)."
+            },
+            {
+                "id" : 1,
+                "title" : "Kasa - Rental booking",
+                "src" : "./Kasa.png",
+                "className": "",
+                "backText" : "Kasa is a project using React, which has allowed the project to be broken down into reusable components."
+            },
+            {
+                "id" : 2,
+                "title" : "Sophie Bluel - Artist Portfolio",
+                "src" : "./Sophie Bluel.png",
+                "className": "",
+                "backText" : "With JS applications developed on this site, it is now possible to use API routes to dynamically edit the artist's projects."
+            }
+        ]
+
+        
     },
     "Skills": {
         "title":"/Skills"

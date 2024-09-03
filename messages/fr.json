@@ -3,7 +3,31 @@
         "title":"Développeur web"
     },
     "Projects": {
-        "title":"/Projets"
+        "title":"/Projets",
+        "github":"Ouvrir le projet sur GitHub",
+        "projectList":[
+            {
+                "id" : 0,
+                "title" : "Mon Vieux Grimoire - Notation de livres",
+                "src" : "./Mon Vieux Grimoire.png",
+                "className": "",
+                "backText" : "Ce projet a consisté en la création de routes API basées sur Node.js pour la constitution et l'exploitation d'une base de données NoSQL (MongoDB)."
+            },
+            {
+                "id" : 1,
+                "title" : "Kasa - Réservation de logement",
+                "src" : "./Kasa.png",
+                "className": "",
+                "backText" : "Kasa est un projet développé grâce à React, ayant permis de découper le projet en composants réutilisables."
+            },
+            {
+                "id" : 2,
+                "title" : "Sophie Bluel - Page Artiste",
+                "src" : "./Sophie Bluel.png",
+                "className": "",
+                "backText" : "Grâce aux applications JS développées sur ce site, il est désormais possible d'utiliser de routes API pour modifier dynamiquement les projets de l'artiste."
+            }
+        ]
     },
     "Skills": {
         "title":"/Compétences"

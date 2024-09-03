@@ -8,6 +8,9 @@ import {
 } from './EmblaCarouselArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+
 type PropType = {
   slides: number[]
   options?: EmblaOptionsType
@@ -31,11 +34,10 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((index) => (
-            <div className="embla__slide" key={index}>
-              <div className="embla__slide__number">{index + 1}</div>
-            </div>
-          ))}
+          <div className='embla_slide'>Next.js</div>
+          <div className='embla_slide'>Tailwind</div>
+          <div className='embla_slide'>Node.js</div>
+          <div className='embla_slide'>MongoDB</div>
         </div>
       </div>
 
