@@ -8,8 +8,7 @@ import {
 } from './EmblaCarouselArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact } from '@fortawesome/free-brands-svg-icons'
+import Image from 'next/image'
 
 type PropType = {
   slides: number[]
@@ -34,10 +33,64 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          <div className='embla_slide'>Next.js</div>
-          <div className='embla_slide'>Tailwind</div>
-          <div className='embla_slide'>Node.js</div>
-          <div className='embla_slide'>MongoDB</div>
+          <div className='embla__slide'>
+            
+            <Image 
+              src="/assets/techLogos/NextJS.png"
+              alt='logo Next.js'
+              width={600}
+              height={600}
+              className='dark:invert'
+            />
+          </div>
+          <div className='embla__slide'>
+            <Image 
+                src="/assets/techLogos/TailwindCSS.svg"
+                alt='logo tailwind css'
+                width={600}
+                height={600}
+                className='block dark:hidden'
+              />
+            <Image 
+              src="/assets/techLogos/TailwindCSSDarkmode.svg"
+              alt='logo tailwind css'
+              width={600}
+              height={600}
+              className='hidden dark:block'
+            />
+          </div>
+          <div className='embla__slide'>
+            <Image 
+                src="/assets/techLogos/nodejsStacked.svg"
+                alt='logo NodeJS'
+                width={600}
+                height={600}
+                className='block dark:hidden'
+              />
+              <Image 
+                src="/assets/techLogos/nodejsStackedDarkmode.svg"
+                alt='logo NodeJS'
+                width={600}
+                height={600}
+                className='hidden dark:block'
+              />
+          </div>
+          <div className='embla__slide'>
+            <Image 
+                src="/assets/techLogos/MongoDB.png"
+                alt='logo MongoDB'
+                width={600}
+                height={600}
+                className='block dark:hidden'
+              />
+              <Image 
+                src="/assets/techLogos/MongoDBDarkmode.png"
+                alt='logo MongoDB'
+                width={600}
+                height={600}
+                className='hidden dark:block'
+              />
+          </div>
         </div>
       </div>
 
