@@ -38,8 +38,8 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             <Image 
               src="/assets/techLogos/NextJS.png"
               alt='logo Next.js'
-              width={600}
-              height={600}
+              width={200}
+              height={200}
               className='dark:invert'
             />
           </div>
@@ -47,15 +47,15 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             <Image 
                 src="/assets/techLogos/TailwindCSS.svg"
                 alt='logo tailwind css'
-                width={600}
-                height={600}
+                width={200}
+                height={200}
                 className='block dark:hidden'
               />
             <Image 
               src="/assets/techLogos/TailwindCSSDarkmode.svg"
               alt='logo tailwind css'
-              width={600}
-              height={600}
+              width={200}
+              height={200}
               className='hidden dark:block'
             />
           </div>
@@ -63,15 +63,15 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             <Image 
                 src="/assets/techLogos/nodejsStacked.svg"
                 alt='logo NodeJS'
-                width={600}
-                height={600}
+                width={200}
+                height={200}
                 className='block dark:hidden'
               />
               <Image 
                 src="/assets/techLogos/nodejsStackedDarkmode.svg"
                 alt='logo NodeJS'
-                width={600}
-                height={600}
+                width={200}
+                height={200}
                 className='hidden dark:block'
               />
           </div>
@@ -79,15 +79,15 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             <Image 
                 src="/assets/techLogos/MongoDB.png"
                 alt='logo MongoDB'
-                width={600}
-                height={600}
+                width={200}
+                height={200}
                 className='block dark:hidden'
               />
               <Image 
                 src="/assets/techLogos/MongoDBDarkmode.png"
                 alt='logo MongoDB'
-                width={600}
-                height={600}
+                width={200}
+                height={200}
                 className='hidden dark:block'
               />
           </div>

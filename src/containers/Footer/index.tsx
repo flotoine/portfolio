@@ -3,6 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons'
+import { faClose } from '@fortawesome/free-solid-svg-icons/faClose';
 import { useTranslations } from 'next-intl';
 
 import DisclaimerModal from '@/components/DisclaimerModal';
@@ -35,7 +36,10 @@ export default function Footer() {
             </button>
             <DisclaimerModal isOpen={open} onClose={handleClose}>
                 <>
-                    <h1>{t('Disclaimer')}</h1>
+                    <div className='flex flex-row-reverse justify-between'>
+                      <FontAwesomeIcon icon={faClose} className=''/>
+                      <h1>{t('Disclaimer')}</h1>
+                    </div>
                     <h3>{t('DisclaimerContent')}</h3>
                 </>
             </DisclaimerModal>
