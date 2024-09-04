@@ -7,11 +7,6 @@ import Link from "next/link";
 
 import { useTranslations } from "next-intl";
 
-import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
-import Projects from "@/containers/Projects";
-
-
 
 export default function Project () {
 
