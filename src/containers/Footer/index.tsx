@@ -40,7 +40,7 @@ export default function Footer() {
                       <FontAwesomeIcon icon={faClose} className=''/>
                       <h1>{t('Disclaimer')}</h1>
                     </div>
-                    <h3>{t('DisclaimerContent')}</h3>
+                    <h3 className='whitespace-pre-line'>{t('DisclaimerContent')}</h3>
                 </>
             </DisclaimerModal>
         </div>

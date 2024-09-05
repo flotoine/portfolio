@@ -7,6 +7,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .embla__viewport {
   overflow: hidden;
@@ -36,7 +38,7 @@
   grid-template-columns: auto 1fr;
   justify-content: space-between;
   gap: 1.2rem;
-  margin-top: 1.8rem;
+  padding-bottom: 1rem;
 }
 .embla__buttons {
   display: grid;
@@ -67,6 +69,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .embla__button:disabled {
   color: var(--detail-high-contrast);
 }
