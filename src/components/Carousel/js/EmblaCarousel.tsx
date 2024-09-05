@@ -36,7 +36,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           <div className='embla__slide'>
             
             <Image 
-              src="/assets/techLogos/NextJS.png"
+              src="/assets/techLogos/NextJS.webp"
               alt='logo Next.js'
               width={200}
               height={200}
@@ -77,14 +77,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           </div>
           <div className='embla__slide'>
             <Image 
-                src="/assets/techLogos/MongoDB.png"
+                src="/assets/techLogos/MongoDB.webp"
                 alt='logo MongoDB'
                 width={200}
                 height={200}
                 className='block dark:hidden'
               />
               <Image 
-                src="/assets/techLogos/MongoDBDarkmode.png"
+                src="/assets/techLogos/MongoDBDarkmode.webp"
                 alt='logo MongoDB'
                 width={200}
                 height={200}

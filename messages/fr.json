@@ -30,7 +30,31 @@
         ]
     },
     "Skills": {
-        "title":"/Compétences"
+        "title":"/Compétences & Parcours",
+        "techs":"Technologies de prédilection",
+        "otherskills":"Autres compétences",
+        "webaccess":"🗣️ Accessibilité du web",
+        "SEO":"🔍 SEO",
+        "perf":"📈 Optimisation des performances",
+        "CV":"Parcours",
+        "dlCV":"Télécharger le CV",
+        "BackgroundList":[
+            {
+                "id":"0",
+                "title":"Technico-commercial",
+                "content":"",
+                "date":"Déc 2019-Juin 2023",
+                "place":"TT: FR-CH-BE"
+            },
+            {
+                "id":"1",
+                "title":"Formateur-consultant",
+                "content":"",
+                "date":"Août 2018-Déc 2019",
+                "place":"Nancy, France"
+            }
+
+        ]
     },
     "Footer" : {
         "contactme":"Me contacter",

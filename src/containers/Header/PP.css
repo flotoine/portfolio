@@ -1,0 +1,16 @@
+.PP {
+    --a: 8deg; /* control the angle of rotation (the smaller, the better) */
+    border-radius: 10px;
+    transform:  skew(-5deg, 5deg) perspective(1000px) rotate3d(var(--r,1,-1),0,calc(var(--i,2)*var(--a)));
+    -webkit-mask: 
+      linear-gradient(135deg,#000c 50%,#000,#000c 60%)
+      100% 100%/250% 250%;
+    transition: .4s;
+    max-height: 75dvh;
+    width:auto;
+}
+
+.header-container:hover .PP {
+    --i: 0;
+    -webkit-mask-position: 0 0;
+  }

@@ -32,7 +32,31 @@
         
     },
     "Skills": {
-        "title":"/Skills"
+        "title":"/Skills & Background",
+        "techs":"Specialized in",
+        "otherskills":"Other skills",
+        "webaccess":"🗣️ Web accessibility",
+        "SEO":"🔍 SEO",
+        "perf":"📈 Performance tuning",
+        "CV":"Background",
+        "dlCV":"Download résumé",
+        "BackgroundList":[
+            {
+                "id":"0",
+                "title":"Technical Sales Manager",
+                "content":"",
+                "date":"Dec 2019-June 2023",
+                "place":"WFH: FR-CH-BE"
+            },
+            {
+                "id":"1",
+                "title":"Trainer-consultant",
+                "content":"",
+                "date":"Aug 2018-Dec 2019",
+                "place":"Nancy, France"
+            }
+
+        ]
     },
     "Footer" : {
         "contactme":"Contact Me",

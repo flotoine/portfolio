@@ -1,14 +1,14 @@
 [
     {
         "id" : 0,
-        "src" : "./Mon Vieux Grimoire.png"
+        "src" : "./Mon-Vieux-Grimoire.webp"
     },
     {
         "id" : 1,
-        "src" : "./Kasa.png"
+        "src" : "./Kasa.webp"
     },
     {
         "id" : 2,
-        "src" : "./Sophie Bluel.png"
+        "src" : "./Sophie-Bluel.webp"
     }
 ]

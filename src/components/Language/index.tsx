@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLanguage } from '@fortawesome/free-solid-svg-icons';
-import flagUK from './flagUK.png'
-import flagFR from './flagFR.png'
+import flagUK from './flagUK.webp'
+import flagFR from './flagFR.webp'
 import Link from 'next/link';
 
 export default function Language () {
