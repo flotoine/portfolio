@@ -35,15 +35,14 @@
         "title":"/Skills & Background",
         "techs":"Specialized in",
         "otherskills":"Other skills",
-        "webaccess":"🗣️ Web accessibility",
-        "SEO":"🔍 SEO",
-        "perf":"📈 Performance tuning",
+        "webaccess":"Web accessibility",
+        "perf":"Performance tuning",
         "CV":"Background",
         "dlCV":"Download résumé",
         "BackgroundList":[
             {
                 "id":"0",
-                "title":"Course Web Developer",
+                "title":"Web Developer Course",
                 "content":"",
                 "date":"Jan 2024-Sept 2024",
                 "place":"OpenClassRooms",
@@ -51,7 +50,7 @@
             },
             {
                 "id":"1",
-                "title":"Technical sales",
+                "title":"Technical Sales Manager",
                 "content":"",
                 "date":"Dec 2019-June 2023",
                 "place":"Lallemand Brewing",
@@ -59,7 +58,7 @@
             },
             {
                 "id":"2",
-                "title":"Trainer-consultant",
+                "title":"Trainer-Consultant",
                 "content":"",
                 "date":"Aug 2018-Dec 2019",
                 "place":"IFBM",
@@ -67,7 +66,7 @@
             },
             {
                 "id":"3",
-                "title":"Lab tech microbiologist",
+                "title":"Quality Technologist - Microbiologist",
                 "content":"",
                 "date":"Apr 2017-Jul 2018",
                 "place":"Labatt Breweries",
@@ -75,7 +74,7 @@
             },
             {
                 "id":"4",
-                "title":"Junior project manager",
+                "title":"Junior Project Manager",
                 "content":"",
                 "date":"Feb 2015-Aug 2015",
                 "place":"Heineken",
@@ -91,7 +90,7 @@
             },
             {
                 "id":"6",
-                "title":"Master Food Science & Microbiology",
+                "title":"Master's - Food Science & Microbiology",
                 "content":"",
                 "date":"Sept 2013-June 2015",
                 "place":"University of Lorraine/ENSAIA",

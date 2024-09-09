@@ -33,9 +33,8 @@
         "title":"/Compétences & Parcours",
         "techs":"Technologies de prédilection",
         "otherskills":"Autres compétences",
-        "webaccess":"🗣️ Accessibilité du web",
-        "SEO":"🔍 SEO",
-        "perf":"📈 Optimisation des performances",
+        "webaccess":"Accessibilité du web",
+        "perf":"Optimisation des performances",
         "CV":"Parcours",
         "dlCV":"Télécharger le CV",
         "BackgroundList":[

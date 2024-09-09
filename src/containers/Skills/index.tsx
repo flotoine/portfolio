@@ -6,6 +6,7 @@ import { useState } from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import Image from "next/image";
 import BackgroundCard from "@/components/BackgroundCard";
 
 export default function Skills() {
@@ -35,11 +36,26 @@ export default function Skills() {
           </div>
           <div className="bg-zinc-300 w-1/3 dark:bg-zinc-800">
             <h3 className="text-zinc-900 dark:text-zinc-50 text-xl text-center font-light py-4">{t('otherskills')}</h3>
-            <ul className="px-4">
-              <li>{t('webaccess')}</li>
-              <li>{t('SEO')}</li>
-              <li>{t('perf')}</li>
-            </ul>
+            <div className="grid grid-cols-[18px_auto] gap-x-2 gap-y-1 p-2 items-center text-zinc-900 dark:text-zinc-50">
+              <Image src="/assets/skillLogos/html.png" alt="logo HTML" height={30} width={30} />
+              <div>HTML</div>
+              <Image src="/assets/skillLogos/css.png" alt="logo HTML" height={30} width={30}/>
+              <div>CSS/Sass</div>
+              <Image src="/assets/skillLogos/Typescript.svg" alt="logo HTML" height={30} width={30} />
+              <div>Javascript/Typescript</div>
+              <Image src="/assets/skillLogos/React.svg" alt="logo HTML" height={30} width={30} />
+              <div>React</div>
+              <div>↔️</div>
+              <div>API REST</div>
+              <div>🚀</div>
+              <div>Agile</div>
+              <div>🗣️</div>
+              <div>{t('webaccess')}</div>
+              <div>🔍</div>
+              <div>SEO</div>
+              <div>📈</div>
+              <div>{t('perf')}</div>
+            </div>
           </div>
         </div>  
         <div className="text-center flex flex-col items-center pt-8 pb-4">
