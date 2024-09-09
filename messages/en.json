@@ -43,17 +43,59 @@
         "BackgroundList":[
             {
                 "id":"0",
-                "title":"Technical Sales Manager",
+                "title":"Course Web Developer",
                 "content":"",
-                "date":"Dec 2019-June 2023",
-                "place":"WFH: FR-CH-BE"
+                "date":"Jan 2024-Sept 2024",
+                "place":"OpenClassRooms",
+                "location":"Distance"
             },
             {
                 "id":"1",
+                "title":"Technical sales",
+                "content":"",
+                "date":"Dec 2019-June 2023",
+                "place":"Lallemand Brewing",
+                "location":"France, Switzerland & Belgium"
+            },
+            {
+                "id":"2",
                 "title":"Trainer-consultant",
                 "content":"",
                 "date":"Aug 2018-Dec 2019",
-                "place":"Nancy, France"
+                "place":"IFBM",
+                "location":"Vandœuvre-lès-Nancy, France"
+            },
+            {
+                "id":"3",
+                "title":"Lab tech microbiologist",
+                "content":"",
+                "date":"Apr 2017-Jul 2018",
+                "place":"Labatt Breweries",
+                "location":"Montreal & Halifax, Canada"
+            },
+            {
+                "id":"4",
+                "title":"Junior project manager",
+                "content":"",
+                "date":"Feb 2015-Aug 2015",
+                "place":"Heineken",
+                "location":"Schiltigheim, France"
+            },
+            {
+                "id":"5",
+                "title":"Postman",
+                "content":"",
+                "date":"Aug 2010-Oct 2016",
+                "place":"Laposte",
+                "location":"Nancy, France"
+            },
+            {
+                "id":"6",
+                "title":"Master Food Science & Microbiology",
+                "content":"",
+                "date":"Sept 2013-June 2015",
+                "place":"University of Lorraine/ENSAIA",
+                "location":"Vandœuvre-lès-Nancy, France"
             }
 
         ]

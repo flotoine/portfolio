@@ -41,17 +41,59 @@
         "BackgroundList":[
             {
                 "id":"0",
-                "title":"Technico-commercial",
+                "title":"Formation Développeur Web",
                 "content":"",
-                "date":"Déc 2019-Juin 2023",
-                "place":"TT: FR-CH-BE"
+                "date":"Jan 2024-Sept 2024",
+                "place":"OpenClassRooms",
+                "location":"À distance"
             },
             {
                 "id":"1",
+                "title":"Technico-commercial",
+                "content":"",
+                "date":"Déc 2019-Juin 2023",
+                "place":"Lallemand Brewing",
+                "location":"France, Suisse & Belgique"
+            },
+            {
+                "id":"2",
                 "title":"Formateur-consultant",
                 "content":"",
                 "date":"Août 2018-Déc 2019",
-                "place":"Nancy, France"
+                "place":"IFBM",
+                "location":"Vandœuvre-lès-Nancy, France"
+            },
+            {
+                "id":"3",
+                "title":"Technicien qualité microbiologiste",
+                "content":"",
+                "date":"Avril 2017-Juillet 2018",
+                "place":"Brasseries Labatt",
+                "location":"Montréal et Halifax, Canada"
+            },
+            {
+                "id":"4",
+                "title":"Chef de projet junior",
+                "content":"",
+                "date":"fév 2015-Août 2015",
+                "place":"Heineken",
+                "location":"Schiltigheim, France"
+            },
+            {
+                "id":"5",
+                "title":"Facteur",
+                "content":"",
+                "date":"Août 2010-Octobre 2016",
+                "place":"Laposte",
+                "location":"Nancy, France"
+            },
+            {
+                "id":"6",
+                "title":"Master Agroalimentaire & Microbiologie",
+                "content":"",
+                "date":"Sept 2013-Juin 2015",
+                "place":"Université de Lorraine/ENSAIA",
+                "location":"Vandœuvre-lès-Nancy, France"
             }
 
         ]
