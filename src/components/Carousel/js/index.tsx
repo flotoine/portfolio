@@ -16,7 +16,7 @@ const App: React.FC = () => (
 
 export default function Carousel() {
   return(
-    <div>
+    <div className='h-full flex'>
       <App />
     </div>
   )
