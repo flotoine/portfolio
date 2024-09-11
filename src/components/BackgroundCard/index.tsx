@@ -10,11 +10,25 @@ const backgroundTable = Array.from({length: 7}, (v, i) => i)
 
 
 const handleClick = (backgroundItem:number) => {
-    console.log(`Button ${backgroundItem} clicked!`);
+    ///change le - en + de la carte précédente
+    const previousCard = document.getElementsByClassName('expanded')[0]
+    if (previousCard === undefined) {
+    } else {
+    const previousCardButton = document.getElementById(`changingButton--${previousCard.id}`) as HTMLInputElement
+    try{previousCardButton.textContent="+"}catch(err){console.log(err)}}
+
+    ///change le + en - de la carte étendue et étend la carte + gestion clic de la même carte
     try{document.getElementsByClassName('expanded')[0].classList.remove('expanded')}catch(err){}
-    const specificCard = document.getElementById(`card${backgroundItem}`) as HTMLInputElement
-    specificCard.classList.add('expanded')
+    const clickedCard = document.getElementById(`card${backgroundItem}`) as HTMLInputElement
+    const changingButton = document.getElementById(`changingButton--card${backgroundItem}`) as HTMLInputElement
+    if (previousCard == clickedCard) {
+        clickedCard.classList.remove('expanded')
+    } else {
+        clickedCard.classList.add('expanded')
+    }
+    try{clickedCard.classList.contains('expanded')? changingButton.textContent="-":changingButton.textContent="+"}catch(err){console.log(err)}
 }
+
 
     return (
         <div className="grid grid-cols-3 grid-flow-dense gap-4 mx-auto my-12 w-3/4">
@@ -27,9 +41,8 @@ const handleClick = (backgroundItem:number) => {
                             <div>{t(`BackgroundList.${backgroundItem}.place`)}</div>
                         </div>
                         <div>
-                            <button onClick={()=>handleClick(backgroundItem)}>+</button>
+                            <button id={`changingButton--card${backgroundItem}`} onClick={()=>handleClick(backgroundItem)}>+</button>
                         </div>
-                        
                     </div>
                     )
             }
