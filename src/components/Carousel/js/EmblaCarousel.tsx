@@ -7,7 +7,7 @@ import {
   usePrevNextButtons
 } from './EmblaCarouselArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
-
+import { motion } from "framer-motion"
 import Image from 'next/image'
 
 type PropType = {
@@ -96,8 +96,22 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 
       <div className="embla__controls">
         <div className="embla__buttons dark:text-white">
+        <motion.div
+        whileHover={{
+          scale: 1.2 
+          }}
+          whileTap={{ scale: 0.9 }}
+          style={{originY:0.7}}>
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+        </motion.div>
+        <motion.div
+        whileHover={{
+          scale: 1.2 
+          }}
+          whileTap={{ scale: 0.9 }}
+          style={{originY:0.7}}>
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        </motion.div>
         </div>
 
         <div className="embla__dots">

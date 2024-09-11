@@ -31,7 +31,7 @@ const handleClick = (backgroundItem:number) => {
 
 
     return (
-        <div className="grid grid-cols-3 grid-flow-dense gap-4 mx-auto my-12 w-3/4">
+        <div className="grid grid-cols-3 grid-flow-dense gap-4 mx-auto my-12 w-3/4 ">
             {
                 backgroundTable.map((backgroundItem)=>
                     <div key={backgroundItem} id={`card${backgroundItem}`}

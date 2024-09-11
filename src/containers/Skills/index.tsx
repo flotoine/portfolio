@@ -3,6 +3,8 @@ import EmblaCarousel from "@/components/Carousel/js/index";
 import { useTranslations } from "next-intl";
 
 import { useState } from "react";
+import { motion } from "framer-motion"
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -16,9 +18,15 @@ export default function Skills() {
     setShowCV(!showCV);
   }
 
+  const variants = {
+    closed: { },
+    open: { rotate:180 },
+  }
+  
+
 
     return (
-      <div className="bg-zinc-200 px-8 py-4 dark:bg-zinc-700 transition-all">
+      <div className="bg-zinc-200 px-8 py-4 dark:bg-zinc-700 ">
         <h2 className="text-zinc-900 text-3xl pb-4 dark:text-zinc-50">{t('title')}</h2>
         <div>
           Après avoir fait carrière dans le milieu brassicole pendant près de 8 ans, je décide de me reconvertir pour devenir développeur web.
@@ -58,15 +66,27 @@ export default function Skills() {
             </div>
           </div>
         </div>  
-        <div className="text-center flex flex-col items-center pt-8 pb-4">
-          <button onClick={toggle} className="text-zinc-900 dark:text-zinc-50 text-xl max-w-fit">{t('CV')}</button> 
-          <FontAwesomeIcon onClick={toggle} icon={faChevronDown} className="dark:invert max-w-fit"/>
-          <div style={{
+        <div className="text-center flex flex-col items-center pt-8 pb-4 transition-all">
+          <button onClick={toggle} className="text-zinc-900 dark:text-zinc-50 text-xl max-w-fit flex flex-col place-items-center">
+            {t('CV')}
+            <motion.div whileHover={{
+              scale: 1.2 
+              }}
+              whileTap={{ scale: 0.9 }}
+              animate={showCV ? "open" : "closed"}
+              variants={variants}
+              style={{originY:0.7}}
+              >
+              
+              <FontAwesomeIcon onClick={toggle} icon={faChevronDown} className="dark:invert max-w-fit pt-4"/>
+            </motion.div>
+          </button> 
+          <motion.div style={{
              display: showCV?"block":"none"
             }}>
             <BackgroundCard />
             <div>{t('dlCV')}</div>
-          </div>
+          </motion.div>
         </div>
       </div>
     );
