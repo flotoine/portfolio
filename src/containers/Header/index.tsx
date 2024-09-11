@@ -49,7 +49,7 @@ export default function Header() {
           
           
         </div>
-        <div className='absolute top-5 right-5 flex flex-row place-items-center z-100 dark:invert'>
+        <div className='absolute top-5 right-5 flex flex-row place-items-center dark:invert'>
             <Language />
             <FontAwesomeIcon icon={faMoon} onClick={toggleTheme} />
         </div>

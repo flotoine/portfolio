@@ -1,6 +1,5 @@
 import React from "react";
 
- 
 const DisclaimerModal = ({ isOpen, onClose, children }) => {
     if (!isOpen) return null;
  
