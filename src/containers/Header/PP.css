@@ -9,8 +9,14 @@
     max-height: 75dvh;
     width:auto;
 }
-
 .header-container:hover .PP {
-    --i: 0;
+  --i: 0;
+  -webkit-mask-position: 0 0;
+}
+
+.header-container:active .PP {
+    --i: 20;
+    rotate: -90deg;
     -webkit-mask-position: 0 0;
   }
+

@@ -2,3 +2,12 @@
     grid-row: span 2 / span 2;
     grid-column: span 2 / span 2;
 }
+
+.visible {
+    display: flex;
+    flex-direction: column;
+}
+
+.invisible {
+    display: none;
+}
