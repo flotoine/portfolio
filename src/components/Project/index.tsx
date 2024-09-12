@@ -31,7 +31,7 @@ export default function Project () {
                         </div>
                         <div className="">
                             <p className="p-2 text-justify font-light"> {t(`projectList.${projectItem.id}.backText`)} </p>
-                            <div className="p-2"><Link href='https://www.github.com'>{t('github')}</Link></div>
+                            <div className="p-2"><Link href={`${projectItem.link}`}>{t('github')}</Link></div>
                         </div>
                     </div>
                     <div className="absolute bottom-0 bg-zinc-200 dark:bg-zinc-800 w-full text-center group-hover/project:invisible">

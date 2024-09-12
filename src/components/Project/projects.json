@@ -1,14 +1,17 @@
 [
     {
         "id" : 0,
-        "src" : "./Mon-Vieux-Grimoire.webp"
+        "src" : "./Mon-Vieux-Grimoire.webp",
+        "link":"https://github.com/flotoine/mon-vieux-grimoire-backend"
     },
     {
         "id" : 1,
-        "src" : "./Kasa.webp"
+        "src" : "./Kasa.webp",
+        "link":"https://github.com/flotoine/kasa"
     },
     {
         "id" : 2,
-        "src" : "./Sophie-Bluel.webp"
+        "src" : "./Sophie-Bluel.webp",
+        "link":"https://github.com/flotoine/bluel"
     }
 ]

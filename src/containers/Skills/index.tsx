@@ -28,15 +28,6 @@ export default function Skills() {
     return (
       <div className="bg-zinc-200 px-8 py-4 dark:bg-zinc-700 ">
         <h2 className="text-zinc-900 text-3xl pb-4 dark:text-zinc-50">{t('title')}</h2>
-        <div>
-          Après avoir fait carrière dans le milieu brassicole pendant près de 8 ans, je décide de me reconvertir pour devenir développeur web.
-        </div>
-        <div>
-          J&apos;ai adoré résoudre des problèmes dans mon domaine prédédent et aider les autres, mes collègues, mes clients à trouver des solutions.
-        </div>
-        <div>
-          Aujourd&apos;hui, j&apos;ai envie de revenir aux nouvelles technologies, passion que j&apos;ai depuis tout petit et d&apos;y allier ce même sens du service.
-        </div>
         <div className="flex gap-2 justify-between">  
           <div className="flex flex-col bg-zinc-300 dark:bg-zinc-800 text-center w-2/3">
             <h3 className="text-zinc-900 dark:text-zinc-50 text-xl font-light py-4">{t('techs')}</h3>
@@ -54,11 +45,12 @@ export default function Skills() {
               <Image src="/assets/skillLogos/React.svg" alt="logo HTML" height={30} width={30} />
               <div>React</div>
               <div>↔️</div>
-              <div>API REST</div>
+              <div>API REST</div> {/*Express, techno utlisées */}
               <div>🚀</div>
               <div>Agile</div>
               <div>🗣️</div>
-              <div>{t('webaccess')}</div>
+              <div>{t('webaccess')}</div> 
+              {/*fusion SEO/access */}
               <div>🔍</div>
               <div>SEO</div>
               <div>📈</div>
