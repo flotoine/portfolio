@@ -1,6 +1,7 @@
 {
     "Header" : {
-        "title":"Web developer"
+        "title":"Web developer",
+        "story":"After a career in the brewing industry for almost 8 years, I was ready for a change and wanted to become a web developer. I loved solving problems in my previous field and helping others, my colleagues and my customers to find solutions. Today, I want to return to new technologies, a passion that I have had since I was a child, and to combine it with the same sense of service."
     },
     "Projects": {
         "title":"/Projects",

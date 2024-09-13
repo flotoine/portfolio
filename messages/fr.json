@@ -1,6 +1,8 @@
 {
     "Header" : {
-        "title":"Développeur web"
+        "title":"Développeur web",
+        "story":"Après avoir fait carrière dans le milieu brassicole pendant près de 8 ans, je décide de me reconvertir pour devenir développeur web. J'ai adoré résoudre des problèmes dans mon domaine prédédent et aider les autres, mes collègues, mes clients à trouver des solutions. Aujourd'hui, j'ai envie de revenir aux nouvelles technologies, passion que j'ai depuis tout petit et d'y allier ce même sens du service."
+
     },
     "Projects": {
         "title":"/Projets",
