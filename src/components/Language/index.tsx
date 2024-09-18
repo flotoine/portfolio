@@ -7,12 +7,10 @@ import Link from 'next/link';
 import { motion } from 'framer-motion'
 
 export default function Language () {
-    function touch () {
-        console.log("oui")
-    } 
+
     return (
         <div className='relative z-50 group/language'>
-            <FontAwesomeIcon onClick={touch} className='pr-5 ' icon={faLanguage} />
+            <FontAwesomeIcon className='pr-5' icon={faLanguage} />
             <div className='absolute hidden group-hover/language:flex flex-col gap-1 dark:invert'>
                 <div>
                     <Link href="/fr">

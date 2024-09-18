@@ -44,7 +44,7 @@
             {
                 "id":"0",
                 "title":"Web Developer Course",
-                "content":"",
+                "content":"<p>Training sequenced by professional projects</p><p>Creating responsive and dynamic websites</p><p>Creating APIs and databases</p><p>Optimising performance and carrying out maintenance on existing websites</p><p>Managing a web project from scratch</p>",
                 "date":"Jan 2024-Sept 2024",
                 "place":"OpenClassRooms",
                 "location":"Distance"
@@ -52,7 +52,7 @@
             {
                 "id":"1",
                 "title":"Technical Sales Manager",
-                "content":"",
+                "content":"<p>Consulting & problem solving</p><p>Monitoring client portfolio and budget</p><p>Technical and commercial product presentations</p><p>Project management as part of an international team</p>",
                 "date":"Dec 2019-June 2023",
                 "place":"Lallemand Brewing",
                 "location":"France, Switzerland & Belgium"
@@ -60,7 +60,7 @@
             {
                 "id":"2",
                 "title":"Trainer-Consultant",
-                "content":"",
+                "content":"<p>Designing training courses and presenting them to different audiences</p><p>Personalised technical advice to companies</p><p>Communication and commercial representation</p>",
                 "date":"Aug 2018-Dec 2019",
                 "place":"IFBM",
                 "location":"Vandœuvre-lès-Nancy, France"
@@ -68,7 +68,7 @@
             {
                 "id":"3",
                 "title":"Quality Technologist - Microbiologist",
-                "content":"",
+                "content":"<p>Monitoring quality parameters and managing deviations with the production team</p><p>PDCA monitoring of the various indicators for continuous improvement</p>",
                 "date":"Apr 2017-Jul 2018",
                 "place":"Labatt Breweries",
                 "location":"Montreal & Halifax, Canada"
@@ -76,7 +76,7 @@
             {
                 "id":"4",
                 "title":"Junior Project Manager",
-                "content":"",
+                "content":"<p>Managing an engineering project to reduce packaging and transport costs</p><p>Monitoring tests as part of a multi-site, multi-disciplinary team</p>",
                 "date":"Feb 2015-Aug 2015",
                 "place":"Heineken",
                 "location":"Schiltigheim, France"
@@ -84,7 +84,7 @@
             {
                 "id":"5",
                 "title":"Postman",
-                "content":"",
+                "content":"<p>Mail delivery in various neighbourhoods</p><p>Supplementary commercial services</p>",
                 "date":"Aug 2010-Oct 2016",
                 "place":"Laposte",
                 "location":"Nancy, France"

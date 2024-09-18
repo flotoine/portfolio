@@ -43,7 +43,7 @@
             {
                 "id":"0",
                 "title":"Formation Développeur Web",
-                "content":"",
+                "content":"<p>Formation séquencées par des projets professionnels</p><p>Création de sites web responsive et dynamiques</p><p>Créer des API et des bases de données</p><p>Optimiser les performances et réaliser la maintenance de sites web déjà existants</p><p>Gérer un projet web de A à Z</p>",
                 "date":"Jan 2024-Sept 2024",
                 "place":"OpenClassRooms",
                 "location":"À distance"
@@ -51,7 +51,7 @@
             {
                 "id":"1",
                 "title":"Technico-commercial",
-                "content":"",
+                "content":"<p>Consulting & résolution de problèmes</p><p>Suivi du portefeuille client et du budget</p><p>Présentations techniques et commerciales des produits</p><p>Gestion de projets au sein d'une équipe internationale</p>",
                 "date":"Déc 2019-Juin 2023",
                 "place":"Lallemand Brewing",
                 "location":"France, Suisse & Belgique"
@@ -59,7 +59,7 @@
             {
                 "id":"2",
                 "title":"Formateur-consultant",
-                "content":"",
+                "content":"<p>Conception des formations et présentation à différents publics</p><p>Conseil technique personnalisé aux entreprises</p><p>Communication et représentation commerciale</p>",
                 "date":"Août 2018-Déc 2019",
                 "place":"IFBM",
                 "location":"Vandœuvre-lès-Nancy, France"
@@ -67,7 +67,7 @@
             {
                 "id":"3",
                 "title":"Technicien qualité microbiologiste",
-                "content":"",
+                "content":"<p>Suivi des paramètres qualité et gestion des déviations avec l'équipe de production</p><p>Suivi PDCA des différents indicateurs pour l'amélioration continue</p>",
                 "date":"Avril 2017-Juillet 2018",
                 "place":"Brasseries Labatt",
                 "location":"Montréal et Halifax, Canada"
@@ -75,7 +75,7 @@
             {
                 "id":"4",
                 "title":"Chef de projet junior",
-                "content":"",
+                "content":"<p>Gestion d'un projet ingénieur de réduction des coûts d'emballage et de transport</p><p>Suivi des essais au sein d'une équipe pluri-sites et pluri-disciplinaire</p>",
                 "date":"fév 2015-Août 2015",
                 "place":"Heineken",
                 "location":"Schiltigheim, France"
@@ -83,7 +83,7 @@
             {
                 "id":"5",
                 "title":"Facteur",
-                "content":"",
+                "content":"<p>Distribution du courrier dans différents quartiers</p><p>Services commerciaux annexes</p>",
                 "date":"Août 2010-Octobre 2016",
                 "place":"Laposte",
                 "location":"Nancy, France"
