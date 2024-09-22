@@ -28,12 +28,12 @@ export default function Skills() {
     return (
       <div className="bg-zinc-200 px-8 py-4 dark:bg-zinc-700 ">
         <h2 className="text-zinc-900 text-3xl pb-4 dark:text-zinc-50">{t('title')}</h2>
-        <div className="flex gap-2 justify-between">  
-          <div className="flex flex-col bg-zinc-300 dark:bg-zinc-800 text-center w-2/3">
+        <div className="flex gap-2 justify-between flex-col md:flex-row">  
+          <section className="flex flex-col bg-zinc-300 dark:bg-zinc-800 text-center ">
             <h3 className="text-zinc-900 dark:text-zinc-50 text-xl font-light py-4">{t('techs')}</h3>
             <EmblaCarousel/>
-          </div>
-          <div className="bg-zinc-300 w-1/3 dark:bg-zinc-800">
+          </section>
+          <section className="bg-zinc-300 dark:bg-zinc-800 flex-grow">
             <h3 className="text-zinc-900 dark:text-zinc-50 text-xl text-center font-light py-4">{t('otherskills')}</h3>
             <div className="grid grid-cols-[18px_auto] gap-x-2 gap-y-1 p-2 items-center text-zinc-900 dark:text-zinc-50">
               <Image src="/assets/skillLogos/html.png" alt="logo HTML" height={30} width={30} />
@@ -56,7 +56,7 @@ export default function Skills() {
               <div>📈</div>
               <div>{t('perf')}</div>
             </div>
-          </div>
+          </section>
         </div>  
         <div className="text-center flex flex-col items-center pt-8 pb-4 transition-all">
           <button onClick={toggle} className="text-zinc-900 dark:text-zinc-50 text-xl max-w-fit flex flex-col place-items-center">

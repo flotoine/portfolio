@@ -12,7 +12,7 @@ export default function Project () {
 
     const t = useTranslations ('Projects')
     return (
-        <div className="grid gap-4 grid-flow-col">
+        <div className="flex gap-4 flex-col md:flex-row">
         {
             projectList.map((projectItem) => 
                 <div key ={projectItem.id} className="shadow-lg transition-all flex flex-col relative overflow-hidden group/project" >
