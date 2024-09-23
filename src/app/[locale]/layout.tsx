@@ -15,7 +15,7 @@ const jost = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Florian Antoine - développeur Web",
-  description: "Portofolio du développeur web Florian Antoine",
+  description: "Portfolio du développeur web Florian Antoine",
 };
 
 

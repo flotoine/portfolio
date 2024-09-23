@@ -5,12 +5,11 @@ export default function Projects() {
   const t = useTranslations('Projects')
 
     return (
-      <div className="bg-zinc-100 px-8 pt-4 pb-8 dark:bg-zinc-800 transition-all">
-        <h2 className="text-zinc-900 text-3xl pb-4 dark:text-zinc-50">{t('title')}</h2>
+      <div className="bg-stone-200 px-8 pt-4 pb-8 dark:bg-stone-800 transition-all">
+        <h2 className="text-stone-800 text-3xl pb-4 dark:text-stone-200">{t('title')}</h2>
         <div className="">
           <Project /> 
         </div>
       </div>
     );
   }
-  // va contenir cartes projet (component)

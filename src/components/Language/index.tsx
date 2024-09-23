@@ -4,20 +4,20 @@ import { faLanguage } from '@fortawesome/free-solid-svg-icons';
 import flagUK from './flagUK.webp'
 import flagFR from './flagFR.webp'
 import Link from 'next/link';
-import { motion } from 'framer-motion'
 
 export default function Language () {
-
+// makes flags appear on hover or click (touchscreen) + change language on click on flag
     return (
         <div className='relative z-50 group/language'>
-            <FontAwesomeIcon className='pr-5' icon={faLanguage} />
+            <FontAwesomeIcon icon={faLanguage} />
             <div className='absolute hidden group-hover/language:flex flex-col gap-1 dark:invert'>
                 <div>
                     <Link href="/fr">
                         <Image 
                             src={(flagFR)}
-                            alt="passer au français"
+                            alt="Passer au français"
                             width={20}
+                            title='Français'
                         />
                     </Link>
                 </div>
@@ -25,8 +25,9 @@ export default function Language () {
                     <Link href="/en">
                         <Image 
                             src={(flagUK)}
-                            alt="passer à l'anglais"
+                            alt="Switch to English"
                             width={20}
+                            title='English'
                         />
                     </Link>
                 </div>

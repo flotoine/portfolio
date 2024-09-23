@@ -1,8 +1,10 @@
+/* expanded status for card with TRUE state */
 .expanded {
     grid-row: span 2 / span 2;
     grid-column: span 2 / span 2;
 }
 
+/* Make extra content visible for card with TRUE state */
 .visible {
     display: flex;
     flex-direction: column;

@@ -1,16 +1,16 @@
 "use client"
 import { useTranslations } from "next-intl"
-import { motion, LayoutGroup } from 'framer-motion'
 
 import './style.css'
 import { useState } from "react"
 
 export default function BackgroundCard () {
+/// generates a grid from background elements in messages
 
 const t = useTranslations('Skills')
-const backgroundTable = Array.from({length: 7}, (v, i) => i)
+const backgroundTable = Array.from({length: 7}, (v, i) => i) ///set the number of displayed cards
 
-let initialCardExpanded = [false,false,false,false,false,false,false]
+let initialCardExpanded = [false,false,false,false,false,false,false] // set cards to close
 
 const [cardExpanded, setCardExpanded] = useState(
     initialCardExpanded
@@ -32,11 +32,11 @@ function handleClick(backgroundItem:number) {
 }
 
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 grid-flow-dense gap-4 mx-auto my-12 md:w-3/4 ">
+        <div className="grid grid-cols-2 md:grid-cols-3 grid-flow-dense gap-4 mx-auto my-12 md:w-3/4 "> {/*grid creation*/}
             {
                 backgroundTable.map((backgroundItem)=>
                     <div key={backgroundItem} id={`card${backgroundItem}`}
-                       className={cardExpanded[backgroundItem]?"expanded bg-zinc-300 dark:bg-zinc-800 dark:text-zinc-50 flex flex-col justify-around px-4 aspect-square":"bg-zinc-300 dark:bg-zinc-800 dark:text-zinc-50 flex flex-col justify-around px-4 aspect-square"}>
+                       className={cardExpanded[backgroundItem]?"expanded backdrop-brightness-90 dark:text-zinc-50 flex flex-col justify-around px-4 aspect-square rounded":"backdrop-brightness-90 dark:text-zinc-50 flex flex-col justify-around px-4 aspect-square rounded"}>
                         <div>
                             <div className="font-bold">{t(`BackgroundList.${backgroundItem}.title`)}</div>
                             <div>{t(`BackgroundList.${backgroundItem}.place`)}</div>

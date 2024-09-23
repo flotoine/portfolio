@@ -15,7 +15,7 @@ import './PP.css'
 export default function Header() {
 
   const t = useTranslations('Header')
-
+// write dark in classlist for tailwind dark mode recognition 
   const toggleTheme = () => {
     if (document.documentElement.classList.contains('dark')) {
       document.documentElement.classList.remove('dark');
@@ -25,7 +25,7 @@ export default function Header() {
       localStorage.setItem('theme', 'dark');
     }
   }
-
+/// set a state for backstory to appear and modify the background 
   const [story, setStory] = useState(false)
   function handleClick() {
     setStory(!story)
@@ -35,8 +35,10 @@ export default function Header() {
 
     return (
       <div>
-        <div className='header-container static flex flex-col place-items-center  bg-zinc-100 dark:bg-zinc-900 antialiased'> 
-          <div onClick={handleClick} className=" flex flex-col w-[80%] sm:w-2/3 md:w-1/2 font-outline-1 cursor-pointer h-[calc(100dvh-65px)] place-content-center text-zinc-800  dark:text-zinc-200 dark:font-outline-thin-dark">
+        <div className='header-container static flex flex-col place-items-center  bg-stone-100 dark:bg-stone-900 antialiased'> 
+          
+          
+          <div onClick={handleClick} className={story?"flex flex-col w-[80%] sm:w-2/3 md:w-1/2 font-outline-1 cursor-pointer h-[calc(100dvh-65px)] place-content-center text-stone-800  dark:text-stone-300 dark:font-outline-thin-dark transition-all":"flex flex-col w-[80%] sm:w-2/3 md:w-1/2 font-outline-1 cursor-pointer h-[calc(100dvh-65px)] place-content-center text-stone-800  dark:text-stone-300 dark:font-outline-thin-dark hover:pb-5 transition-all"}>
             <h1 className="text-5xl sm:text-5xl md:text-6xl z-10">
                 Florian Antoine
             </h1>
@@ -51,14 +53,16 @@ export default function Header() {
               alt="Photo d'identité de Florian Antoine"
               height={800}
               width={500}
-              className={story? "front w-[50dvw] md:w-[500px]":"front w-[70dvw] md:w-[500px]"}
+              className={story? "front w-[50dvw] md:w-[400px]":"front w-[70dvw] md:w-[500px]"}
             />
           </div>
         </div>
-        <div className='absolute top-5 right-5 flex flex-row text-xl sm:text-lg place-items-center dark:invert'>
-            <Language />
-            <button>
-              <FontAwesomeIcon icon={faMoon} onClick={toggleTheme} />
+        <div className='absolute top-5 right-5 gap-5 pr-1 flex flex-row text-xl sm:text-lg place-items-center dark:invert'>
+            <button title ="Language / Langue"> 
+              <Language />
+            </button>
+            <button name='button' title="Dark mode">
+              <FontAwesomeIcon icon={faMoon} onClick={toggleTheme}/>
             </button>
         </div>
       </div>
