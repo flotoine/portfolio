@@ -32,11 +32,11 @@ function handleClick(backgroundItem:number) {
 }
 
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 grid-flow-dense gap-4 mx-auto my-12 md:w-3/4 "> {/*grid creation*/}
+        <div className="grid  grid-cols-2 md:grid-cols-3 grid-flow-dense gap-4 mx-auto my-12 md:w-3/4 "> {/*grid creation*/}
             {
                 backgroundTable.map((backgroundItem)=>
                     <div key={backgroundItem} id={`card${backgroundItem}`}
-                       className={cardExpanded[backgroundItem]?"expanded backdrop-brightness-90 dark:text-zinc-50 flex flex-col justify-around px-4 aspect-square rounded":"backdrop-brightness-90 dark:text-zinc-50 flex flex-col justify-around px-4 aspect-square rounded"}>
+                       className={cardExpanded[backgroundItem]?"expanded backdrop-brightness-90 dark:text-zinc-50 flex flex-col justify-around px-4 aspect-square rounded shadow-lg":"shadow-lg backdrop-brightness-90 dark:text-zinc-50 flex flex-col justify-around px-4 aspect-square rounded"}>
                         <div>
                             <div className="font-bold">{t(`BackgroundList.${backgroundItem}.title`)}</div>
                             <div>{t(`BackgroundList.${backgroundItem}.place`)}</div>
