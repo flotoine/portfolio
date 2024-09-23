@@ -101,7 +101,6 @@
     },
     "Footer" : {
         "contactme":"Me contacter",
-        "Disclaimer":"Mentions Légales",
-        "DisclaimerContent": "Identité\nNom du site: Florian Antoine - Développeur Web"
+        "rights":"© 2024 Florian Antoine | Tous droits réservés"
     }
 }

@@ -3,25 +3,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons'
-import { faClose } from '@fortawesome/free-solid-svg-icons/faClose';
+
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 
-import DisclaimerModal from '@/components/DisclaimerModal';
 
 export default function Footer() {
   const t = useTranslations('Footer')
-
-  const [open, setOpen] = React.useState(false);
- 
-  const handleClose = () => {
-      setOpen(false);
-  };
-
-  const handleOpen = () => {
-      setOpen(true);
-  };
-
 
     return (
       <div className="bg-zinc-800 flex flex-col place-items-center transition-all pt-8">
@@ -53,18 +41,7 @@ export default function Footer() {
           </motion.div>
         </div>
         <div className="text-zinc-50 text-sm pt-12 p-4">
-            <button type="button" onClick={handleOpen}>
-              {t('Disclaimer')}
-            </button>
-            <DisclaimerModal isOpen={open} onClose={handleClose}>
-                <>
-                    <div className='flex flex-row-reverse justify-between'>
-                      <FontAwesomeIcon icon={faClose} className=''/>
-                      <h1>{t('Disclaimer')}</h1>
-                    </div>
-                    <h3 className='whitespace-pre-line'>{t('DisclaimerContent')}</h3>
-                </>
-            </DisclaimerModal>
+           {t('rights')}
         </div>
       </div>
     );
