@@ -83,7 +83,7 @@ export default function Skills() {
              display: showCV?"block":"none"
             }}>
             <BackgroundCard />
-            <div>{t('dlCV')}</div>
+            <a href='assets/CV_Florian_Antoine.pdf' download>{t('dlCV')}</a>
           </div>
         </div>
       </div>
