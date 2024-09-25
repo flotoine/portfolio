@@ -73,7 +73,7 @@ export default function Skills() {
               variants={variants}
               style={{originY:0.7}}
               >
-              <div className="text-stone-900 dark:text-slate-100">
+              <div className="text-stone-900 dark:text-stone-100">
                 <FontAwesomeIcon onClick={toggle} icon={faChevronDown} className="max-w-fit pt-4"/>
               </div>
             </motion.div>
@@ -83,7 +83,7 @@ export default function Skills() {
              display: showCV?"block":"none"
             }}>
             <BackgroundCard />
-            <a href='assets/CV_Florian_Antoine.pdf' download>{t('dlCV')}</a>
+            <a href='assets/CV_Florian_Antoine.pdf' className="text-stone-900 dark:text-stone-100" download>{t('dlCV')}</a>
           </div>
         </div>
       </div>
