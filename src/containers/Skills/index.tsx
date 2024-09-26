@@ -29,7 +29,7 @@ export default function Skills() {
 
 
     return (
-      <div className="bg-stone-300 px-8 py-4 dark:bg-stone-700 ">
+      <div className="bg-stone-100 px-8 py-4 dark:bg-stone-700 ">
         <h2 className="text-stone-900 text-3xl pb-4 dark:text-stone-100">{t('title')}</h2>
         <div className="flex gap-4 justify-between flex-col md:flex-row">  
           <section className="flex flex-col backdrop-brightness-90 text-center rounded shadow-lg">
