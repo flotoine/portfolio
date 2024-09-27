@@ -2,16 +2,19 @@
     {
         "id" : 0,
         "src" : "./Mon-Vieux-Grimoire.webp",
-        "link":"https://github.com/flotoine/mon-vieux-grimoire-backend"
+        "link":"https://github.com/flotoine/mon-vieux-grimoire-backend",
+        "techs":"Express, Node.JS, MongoDB"
     },
     {
         "id" : 1,
         "src" : "./Kasa.webp",
-        "link":"https://github.com/flotoine/kasa"
+        "link":"https://github.com/flotoine/kasa",
+        "techs":"React, Node.js, SASS"
     },
     {
         "id" : 2,
         "src" : "./Sophie-Bluel.webp",
-        "link":"https://github.com/flotoine/bluel"
+        "link":"https://github.com/flotoine/bluel",
+        "techs":"JavaScript, API "
     }
 ]

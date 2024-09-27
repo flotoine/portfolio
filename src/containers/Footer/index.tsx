@@ -37,7 +37,7 @@ export default function Footer() {
             }}
             whileTap={{ scale: 0.9 }}
             style={{originY:0.7}}>
-            <a href="https://github.com/flotoine/portfolio"  className='bg-cyan-700 h-10 aspect-square rounded-md flex place-items-center justify-center'><FontAwesomeIcon icon={faGithub} className='text-white'/></a>
+            <a href="https://github.com/flotoine/"  className='bg-cyan-700 h-10 aspect-square rounded-md flex place-items-center justify-center'><FontAwesomeIcon icon={faGithub} className='text-white'/></a>
           </motion.div>
         </div>
         <div className="text-stone-50 text-sm pt-12 p-4">

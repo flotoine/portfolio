@@ -31,9 +31,11 @@ export default function Project () {
                             {t(`projectList.${projectItem.id}.title`)}
                             </p>
                         </div>
-                        <div className="">
-                            <p className="p-2 text-justify font-light"> {t(`projectList.${projectItem.id}.backText`)} </p>
-                            <div className="p-2"><Link href={`${projectItem.link}`}>{t('github')}</Link></div>
+                        <div className="p-2">
+                            <p className="pb-2 text-justify font-light"> {t(`projectList.${projectItem.id}.backText`)} </p>
+                            <p>Technologies :</p>
+                            <p className="font-light">{projectItem.techs}</p>
+                            <div className="pt-2"><Link href={`${projectItem.link}`}>{t('github')}</Link></div>
                         </div>
                     </div>
                     <div className="absolute bottom-0 bg-stone-200 dark:bg-stone-800 w-full text-center group-hover/project:invisible">
