@@ -8,11 +8,11 @@ import Footer from "@/containers/Footer";
 export default function Home() {
  
   return (
-    <div>
+    <>
       <Header />
       <Projects />
       <Skills />
       <Footer />
-    </div>
+    </>
   );
 }

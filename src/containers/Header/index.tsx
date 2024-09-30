@@ -34,20 +34,20 @@ export default function Header() {
 
 
     return (
-      <div>
-        <div className='header-container static flex flex-col place-items-center  bg-stone-100 dark:bg-stone-900 antialiased'> 
+      <header>
+        <section className='header-container static flex flex-col place-items-center  bg-stone-100 dark:bg-stone-900 antialiased'> 
           
           
-          <div onClick={handleClick} className={story?"flex flex-col w-[80%] sm:w-2/3 md:w-1/2 font-outline-1 cursor-pointer h-[calc(100dvh-65px)] place-content-center text-stone-800  dark:text-stone-300 dark:font-outline-thin-dark transition-all":"flex flex-col w-[80%] sm:w-2/3 md:w-1/2 font-outline-1 cursor-pointer h-[calc(100dvh-65px)] place-content-center text-stone-800  dark:text-stone-300 dark:font-outline-thin-dark hover:pb-5 transition-all"}>
+          <section onClick={handleClick} className={story?"flex flex-col w-[80%] sm:w-2/3 md:w-1/2 font-outline-1 cursor-pointer h-[calc(100dvh-65px)] place-content-center text-stone-800  dark:text-stone-300 dark:font-outline-thin-dark transition-all":"flex flex-col w-[80%] sm:w-2/3 md:w-1/2 font-outline-1 cursor-pointer h-[calc(100dvh-65px)] place-content-center text-stone-800  dark:text-stone-300 dark:font-outline-thin-dark hover:pb-5 transition-all"}>
             <h1 className="text-5xl sm:text-5xl md:text-6xl z-10">
                 Florian Antoine
             </h1>
             <p className="text-xl sm:text-3xl font-light z-10 pb-4">
               {t('title')}
             </p>
-            <div className={story ? "z-10 font-light text-xl font-outline-thin dark:font-outline-thin-dark dark:font-normal":"hidden"}>{t('story')}</div>
-          </div>
-          <div className={story? "blur-md card z-0 drop-shadow-2xl brightness-200 dark:brightness-100 opacity-50 absolute top-[35%] -translate-y-[35%]":"card z-0 drop-shadow-2xl brightness-200 dark:brightness-100 opacity-50 absolute top-[35%] -translate-y-[35%]"}>
+            <p className={story ? "z-10 font-light text-xl font-outline-thin dark:font-outline-thin-dark dark:font-normal":"hidden"}>{t('story')}</p>
+          </section>
+          <figure className={story? "blur-md card z-0 drop-shadow-2xl brightness-200 dark:brightness-100 opacity-50 absolute top-[35%] -translate-y-[35%]":"card z-0 drop-shadow-2xl brightness-200 dark:brightness-100 opacity-50 absolute top-[35%] -translate-y-[35%]"}>
             <Image 
               src={profilePic}
               alt="Photo d'identité de Florian Antoine"
@@ -55,16 +55,14 @@ export default function Header() {
               width={500}
               className={story? "front w-[50dvw] md:w-[400px]":"front w-[70dvw] md:w-[500px]"}
             />
-          </div>
-        </div>
-        <div className='absolute top-5 right-5 gap-5 pr-1 flex flex-row text-xl sm:text-lg place-items-center dark:invert'>
-            <button title ="Language / Langue"> 
-              <Language />
-            </button>
+          </figure>
+        </section>
+        <nav className='absolute top-5 right-5 gap-5 pr-1 flex flex-row text-xl sm:text-lg place-items-center dark:invert'>   
+            <Language />    
             <button name='button' title="Dark mode">
               <FontAwesomeIcon icon={faMoon} onClick={toggleTheme}/>
             </button>
-        </div>
-      </div>
+        </nav>
+      </header>
     );
   }

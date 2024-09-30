@@ -8,10 +8,10 @@ import Link from 'next/link';
 export default function Language () {
 // makes flags appear on hover or click (touchscreen) + change language on click on flag
     return (
-        <div className='relative z-50 group/language'>
+        <button className='relative z-50 group/language'>
             <FontAwesomeIcon icon={faLanguage} />
-            <div className='absolute hidden group-hover/language:flex flex-col gap-1 dark:invert'>
-                <div>
+            <section className='absolute hidden group-hover/language:flex flex-col gap-1 dark:invert'>
+                <button>
                     <Link href="/fr">
                         <Image 
                             src={(flagFR)}
@@ -20,8 +20,8 @@ export default function Language () {
                             title='Français'
                         />
                     </Link>
-                </div>
-                <div>
+                </button>
+                <button>
                     <Link href="/en">
                         <Image 
                             src={(flagUK)}
@@ -30,8 +30,8 @@ export default function Language () {
                             title='English'
                         />
                     </Link>
-                </div>
-            </div>
-        </div>
+                </button>
+            </section>
+        </button>
     )
 } 
