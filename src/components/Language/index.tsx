@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function Language () {
 // makes flags appear on hover or click (touchscreen) + change language on click on flag
     return (
-        <button className='relative z-50 group/language'>
+        <div className='relative z-50 group/language'>
             <FontAwesomeIcon icon={faLanguage} />
             <section className='absolute hidden group-hover/language:flex flex-col gap-1 dark:invert'>
                 <button>
@@ -32,6 +32,6 @@ export default function Language () {
                     </Link>
                 </button>
             </section>
-        </button>
+        </div>
     )
 } 

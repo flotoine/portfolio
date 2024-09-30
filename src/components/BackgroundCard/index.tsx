@@ -42,9 +42,9 @@ function handleClick(backgroundItem:number) {
                             <p>{t(`BackgroundList.${backgroundItem}.place`)}</p>
                         </section>
                         <section id={`backgroundExtra--card${backgroundItem}`} className={cardExpanded[backgroundItem]?"text-left list-disc list-inside":"invisible"}>  
-                            <p className="pb-4">{t.rich(`BackgroundList.${backgroundItem}.content`, {
+                            <ul className="pb-4">{t.rich(`BackgroundList.${backgroundItem}.content`, {
                                 p: (context) => <li>{context}</li>
-                            })}</p>   
+                            })}</ul>   
                             <p>{t(`BackgroundList.${backgroundItem}.location`)}</p>   
                             <p>{t(`BackgroundList.${backgroundItem}.date`)}</p>
                         </section>    
