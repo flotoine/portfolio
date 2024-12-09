@@ -13,8 +13,8 @@
     },
     {
         "id" : 2,
-        "src" : "./Sophie-Bluel.webp",
-        "link":"https://github.com/flotoine/bluel",
-        "techs":"JavaScript, API "
+        "src" : "./LeCarnet.webp",
+        "link":"https://github.com/flotoine/LeCarnet",
+        "techs":"Vue.Js, Directus "
     }
 ]

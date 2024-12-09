@@ -23,10 +23,10 @@
             },
             {
                 "id" : 2,
-                "title" : "Sophie Bluel - Page Artiste",
-                "src" : "./Sophie Bluel.png",
+                "title" : "LeCarnet (en développement)",
+                "src" : "./LeCarnet.png",
                 "className": "",
-                "backText" : "Grâce aux applications JS développées sur ce site, il est désormais possible d'utiliser de routes API pour modifier dynamiquement les projets de l'artiste."
+                "backText" : "LeCarnet est une application web destinée à remplacer le carnet de musculation. Elle se veut ouverte à toutes les sportives et sportifs en salle, quelque soit leur pratique mais qui veulent suivre leur progrès. Directus et Vue.js permettent un déploiement rapide et un ajout facilité de fonctionnalités."
             }
         ]
     },

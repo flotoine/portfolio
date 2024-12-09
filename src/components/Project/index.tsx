@@ -22,7 +22,7 @@ export default function Project () {
                         alt="Aperçu du projet"
                         width={800}
                         height={400}
-                        className="min-h-72 max-h-72 object-cover object-left-top "
+                        className="min-h-72 max-h-72 object-contain object-top bg-stone-300 dark:bg-stone-600"
                         />
                     </figure>
                     <section className="px-2 pb-2 absolute w-full top-[80%] text-sm group-hover/project:bottom-0 group-hover/project:top-auto bg-stone-100 dark:bg-stone-700 text-stone-900 dark:text-stone-50 ">
