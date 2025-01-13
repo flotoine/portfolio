@@ -46,7 +46,7 @@ export default function Skills() {
               <Image src="/assets/skillLogos/Typescript.svg" alt="logo HTML" height={30} width={30} />
               <li>Javascript/Typescript</li>
               <figure>⚙️</figure>
-              <li>React/Vue.js</li>
+              <li>React</li>
               <figure>↔️</figure>
               <li>Express/API REST</li>
               <figure>🚀</figure>
